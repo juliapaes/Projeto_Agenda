@@ -8,11 +8,9 @@
     <persistence-unit name="agenda" transaction-type="RESOURCE_LOCAL">
 
         <properties>
-
+		
             <property name="javax.persistence.jdbc.url" 
-    value="jdbc:postgresql://ceted.feevale.br/bd_a30?currentSchema=agenda&amp;useSSL=false&amp;serverTimeZone=UTC" />
-            <!--property name="javax.persistence.jdbc.url" 
-    value="jdbc:postgresql://localhost/postgres?currentSchema=agenda&amp;useSSL=false&amp;serverTimeZone=UTC" /-->
+    value="jdbc:postgresql://localhost/postgres?currentSchema=agenda&amp;useSSL=false&amp;serverTimeZone=UTC">
 
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
             <property name="javax.persistence.jdbc.user" value="a30" />
