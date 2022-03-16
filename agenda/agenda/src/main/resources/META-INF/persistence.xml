@@ -13,9 +13,9 @@
     value="jdbc:postgresql://localhost/postgres?currentSchema=agenda&amp;useSSL=false&amp;serverTimeZone=UTC">
 
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.user" value="a30" />
+            <property name="javax.persistence.jdbc.user" value="" />
             <!--  property name="javax.persistence.jdbc.user" value="postgres" /-->
-            <property name="javax.persistence.jdbc.password" value="feevale" />
+            <property name="javax.persistence.jdbc.password" value="" />
 
             <property name="hibernate.show.sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="update" />
