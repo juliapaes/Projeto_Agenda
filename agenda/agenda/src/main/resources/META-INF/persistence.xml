@@ -14,15 +14,12 @@
 
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
             <property name="javax.persistence.jdbc.user" value="" />
-            <!--  property name="javax.persistence.jdbc.user" value="postgres" /-->
             <property name="javax.persistence.jdbc.password" value="" />
 
             <property name="hibernate.show.sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="update" />
 
-            <!-- https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/dialect/package-summary.html -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL95Dialect" />
-            <!--property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL10Dialect" /-->
 
         </properties>
 
